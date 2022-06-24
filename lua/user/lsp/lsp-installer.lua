@@ -18,6 +18,7 @@ local servers = {
   "yamlls",
   "bashls",
   "clangd",
+  "puppet",
 }
 
 local settings = {

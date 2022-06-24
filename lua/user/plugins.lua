@@ -199,6 +199,7 @@ return packer.startup(function(use)
   use "mattn/vim-gist"
   use "mattn/webapi-vim"
   use "https://github.com/rhysd/conflict-marker.vim"
+  use "sindrets/diffview.nvim"
 
   -- DAP
   use "mfussenegger/nvim-dap"
