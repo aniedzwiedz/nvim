@@ -200,7 +200,7 @@ return packer.startup(function(use)
   use "mattn/webapi-vim"
   use "https://github.com/rhysd/conflict-marker.vim"
   use "sindrets/diffview.nvim"
-  use "TimUntersberger/neogit"
+  -- use "TimUntersberger/neogit"
 
   -- DAP
   use "mfussenegger/nvim-dap"
