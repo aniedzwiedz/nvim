@@ -177,7 +177,7 @@ return packer.startup(function(use)
   use "tom-anders/telescope-vim-bookmarks.nvim"
   use "nvim-telescope/telescope-media-files.nvim"
   -- use "nvim-telescope/telescope-ui-select.nvim"
-  -- use "nvim-telescope/telescope-file-browser.nvim"
+  use "nvim-telescope/telescope-file-browser.nvim"
 
   -- Treesitter
   use {
@@ -200,6 +200,7 @@ return packer.startup(function(use)
   use "mattn/webapi-vim"
   use "https://github.com/rhysd/conflict-marker.vim"
   use "sindrets/diffview.nvim"
+  use "TimUntersberger/neogit"
 
   -- DAP
   use "mfussenegger/nvim-dap"
